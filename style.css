@@ -30,6 +30,16 @@ footer{
     align-items: center;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 4px;
+}
+
+#share{
+    color: green;
+}
+
 .flex-item{
     width: 99vw;
     display: flex;
@@ -43,13 +53,29 @@ footer{
 }
 
 button{
-    color: rgb(1, 0, 0);
-    background-color: #f0f4f7;
+    cursor: pointer;
+}
+.btn{
+    color: white;
+    background-color: #c9cacb;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
     }
 
+    .btn-footer{
+        color: white;
+        background-color:transparent;
+        text-align: center;
+        padding: 20px;
+        border: none;
+        }
+
+    .end-call{
+        color: red;
+        padding: 27px;
+        border-radius: 1px;
+    }
     
 
     .user{
@@ -63,4 +89,8 @@ button{
        bottom: 5px;
        left: 0;
        background-color: #f0f4f7;
+   }
+
+   .footer-icon{
+       font-size: 25px;
    }
