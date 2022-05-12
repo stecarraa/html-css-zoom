@@ -3,3 +3,64 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+
+footer{
+    background-color: darkgrey;
+    position: sticky;
+    bottom: 0;
+    z-index: 99999;
+}
+
+.head-content{
+    display: flex;
+   justify-content: flex-end;
+}
+
+.foot-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-item{
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2px;
+    flex-wrap: wrap;
+}
+
+button{
+    color: rgb(1, 0, 0);
+    background-color: #f0f4f7;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    }
+
+    
+
+    .user{
+        margin:10px  10px;
+        align-items: center;
+        position: relative;
+        
+    }
+   .mic-close{
+       position: absolute;
+       bottom: 5px;
+       left: 0;
+       background-color: #f0f4f7;
+   }
