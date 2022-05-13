@@ -7,21 +7,18 @@ body{
     background-color: black;
 }
 header{
-    position: sticky;
-    top: 0;
-    z-index: 999999;
+    text-align: right;
+    height: 50px;
 }
 
 footer{
-    background-color: darkgrey;
-    position: sticky;
-    bottom: 0;
-    z-index: 99999;
+    background-color: #222;
+    height: 80px;
 }
 
-.head-content{
-    display: flex;
-   justify-content: flex-end;
+main{
+    height: calc(100vh - 130px);
+    overflow: auto;
 }
 
 .foot-content{
@@ -79,7 +76,6 @@ button{
     
 
     .user{
-        margin:10px  10px;
         align-items: center;
         position: relative;
         
